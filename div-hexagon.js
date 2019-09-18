@@ -61,9 +61,10 @@ class DivHexagon extends LitElement {
         transition: .75s .05s;
         hyphens: auto;
         text-align: center;
+        margin-block-start: 0.2em;
+        margin-block-end: 1em;
       }
       img {
-        display:none;
         background: #fff;
         min-width: var(--radio);
         min-height: var(--radio);
@@ -87,12 +88,16 @@ class DivHexagon extends LitElement {
         font-weight: 200;
         font-variant: small-caps;
         padding: 0;
+        margin: 0.2em;
       }
       figure p {
-        font-size: 70%;
+        font-size: 0.9rem;
         line-height: 1.2;
         font-weight: 100;
-        width: 100%;
+        margin-block-start: 0.2em;
+        margin-block-end: 0.2em;
+        width: 140%;
+        margin-left: -1rem;
       }
       a {
         display: block;
