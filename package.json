@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/manu/hexagons-layout",
   "dependencies": {
+    "div-hexagon": "^1.0.0",
     "lit-element": "^2.1.0"
   },
   "devDependencies": {
